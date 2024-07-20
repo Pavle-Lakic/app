@@ -9,7 +9,7 @@ ${TARGET}: clean
 
 install: 
 	install -d ${D}/home/main
-    install -m 0755 ${S}/main ${D}/home/main/
+	install -m 0755 ${S}/main ${D}/home/main/
 
 clean:
 	rm -rf ${TARGET}
