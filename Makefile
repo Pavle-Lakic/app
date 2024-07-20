@@ -3,7 +3,7 @@ TARGET = main
 .PHONY: clean
 
 ${TARGET}: ${TARGET}.c
-	${CC} $< -o $@
+	${CC} $< ${CFLAGS} -o $@
 
 clean:
 	rm -rf ${TARGET}
